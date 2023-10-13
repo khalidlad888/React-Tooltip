@@ -1,3 +1,12 @@
+# React Tooltip Component
+
+This is a simple React tooltip component that allows you to display tooltips in different positions. You can easily integrate it into your React applications for a user-friendly interface.
+
+## Installation
+
+Clone the repository and navigate to the project directory. Run command npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

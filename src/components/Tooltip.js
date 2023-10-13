@@ -1,7 +1,11 @@
+//importing react and useState hook
 import React, { useState } from 'react';
-import './tooltip.css'; // add your own styling here
+//importing CSS
+import './tooltip.css';
 
+//Tooltip component receving position as props
 const Tooltip = ({ position, children }) => {
+  //state and function to enable and disable tooltip
   const [showTooltip, setShowTooltip] = useState(false);
 
   const handleMouseEnter = () => {
@@ -12,6 +16,7 @@ const Tooltip = ({ position, children }) => {
     setShowTooltip(false);
   };
 
+  //get postion from props and set transform
   const getTooltipPosition = () => {
     switch (position) {
       case 'top':
